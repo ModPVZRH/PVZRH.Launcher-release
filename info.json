@@ -9,8 +9,8 @@
   },
 
   "urlApk": {
-    "github": "https://github.com/ModPVZRH/PVZRH.Android.Launcher/releases/latest/download/apk-debug.apk",
-    "gh-proxy": "https://v6.gh-proxy.org/https://github.com/ModPVZRH/PVZRH.Android.Launcher/releases/latest/download/apk-debug.apk",
+    "github": "https://github.com/ModPVZRH/PVZRH.Android.Launcher/releases/latest/download/app-release.apk",
+    "gh-proxy": "https://v6.gh-proxy.org/https://github.com/ModPVZRH/PVZRH.Android.Launcher/releases/latest/download/app-release.apk",
     "cos": "null"
   },
   
