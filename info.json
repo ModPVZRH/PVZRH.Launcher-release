@@ -27,7 +27,29 @@
 • 从整合包返回主页时底部白边 / 导航栏闪烁
 • 市场分类横向滑动时误切底部页面
 • 多处本地化与界面细节",
-    "English": "Welcome to the PVZ Fusion Edition Mod Launcher. This launcher was created by [HayashiUme](https://space.bilibili.com/1958152197?spm_id_from=333.1007.0.0) and [Gao Shu](https://space.bilibili.com/1117414477?spm_id_from=333.40164.0.0). This version is the initial release and may contain certain bugs. Please provide feedback at [Github Issues](https://github.com/ModPVZRH/PVZRH.Android.Launcher/issues)."
+    "English": "Mod Market
+• Added a BepInEx marketplace with browse, search, sort, and pull-to-refresh
+• Filter by category; the top chips are now All / Featured / Authors plus online tags
+• Cards and details show tags, category, and compatible game versions (highlighted in red when they do not match the installed game)
+• Non-Chinese UI languages prefer the English mod name; search still matches both names
+• Added a back-to-top button on the market list
+
+Modpacks
+• The pack detail + menu now supports manual import, auto-scan of .dll files in Downloads, and import from another pack
+• Importing from another pack copies matching configs, sidecar files, display names, and enable state, with select-all / deselect-all
+• Mods can be assigned categories and filtered by category
+• Packs can declare a compatible game version; mismatched imports prompt before continuing, and the list shows the target version
+• Added a back-to-top button on the mod list
+• modpack.json now stores per-mod extras in a unified mods map (legacy fields are still imported)
+
+In-game
+• Added a declarative UI bridge so plugins can open their own overlay windows
+• Polished the in-game menu theme, control spacing, and tab animations
+
+Fixes
+• White strip / flashing bottom navigation when returning from a pack to Home
+• Horizontal category swipes no longer change the main pager tab
+• Various localization and UI polish updates"
   },
 
   "urlApk": {
