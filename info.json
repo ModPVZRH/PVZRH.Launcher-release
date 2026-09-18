@@ -3,8 +3,30 @@
   "allowStart": "true",
   
   "announcement": {
-    "Date": "2026-08-28",
-    "SChinese": "欢迎使用PVZ融合版模组启动器，本启动器由[HayashiUme](https://space.bilibili.com/1958152197?spm_id_from=333.1007.0.0)与[高数](https://space.bilibili.com/1117414477?spm_id_from=333.40164.0.0)制作。该版本为初始版本，可能存在一定bug，如您遇到请前往[Github Issues](https://github.com/ModPVZRH/PVZRH.Android.Launcher/issues)或[模组QQ交流群](https://qm.qq.com/q/Ig1yGGlkek)反馈。",
+    "Date": "2026-09-17",
+    "SChinese": "模组市场
+• 新增 BepInEx 模组市场：浏览、搜索、排序、下拉刷新
+• 支持按分类筛选，顶部改为全部 / 精选 / 作者 + 线上标签
+• 列表与详情显示标签、分类，以及适配的游戏版本（与当前游戏不一致时标红）
+• 非中文界面默认显示英文模组名，搜索仍同时匹配中英文
+• 市场列表增加回到顶部按钮
+
+整合包
+• 整合包详情「+」菜单：手动导入、自动扫描下载目录中的 .dll、从其他整合包导入
+• 从其他整合包导入时会一并复制对应配置、附属文件、显示名称和开关状态，并支持全选 / 取消全选
+• 模组可设置分类，并按分类筛选查看
+• 整合包可填写适配游戏版本；导入不匹配时会弹出确认，列表也会显示适配版本
+• 模组列表增加回到顶部按钮
+• modpack.json 改为统一的 mods 结构（旧字段仍可自动迁移）
+
+游戏内
+• 新增插件声明式 UI 通道，模组可弹出独立悬浮窗口
+• 优化游戏内菜单主题、控件间距与标签页动画
+
+修复
+• 从整合包返回主页时底部白边 / 导航栏闪烁
+• 市场分类横向滑动时误切底部页面
+• 多处本地化与界面细节",
     "English": "Welcome to the PVZ Fusion Edition Mod Launcher. This launcher was created by [HayashiUme](https://space.bilibili.com/1958152197?spm_id_from=333.1007.0.0) and [Gao Shu](https://space.bilibili.com/1117414477?spm_id_from=333.40164.0.0). This version is the initial release and may contain certain bugs. Please provide feedback at [Github Issues](https://github.com/ModPVZRH/PVZRH.Android.Launcher/issues)."
   },
 
