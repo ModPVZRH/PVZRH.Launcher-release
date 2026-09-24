@@ -53,7 +53,7 @@ Fixes
   },
 
   "urlApk": {
-    "github": "https://github.com/ModPVZRH/PVZRH.Android.Launcher/releases/latest/download/app-release.apk",
+    "github": "https://github.com/ModPVZRH/PVZRH.Launcher-release/releases/latest/download/app-release.apk",
     "gh-proxy": "https://pan.quark.cn/s/e473eb7afc1d",
     "cos": "null"
   },
