@@ -1,55 +1,11 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "allowStart": "true",
   
   "announcement": {
-    "Date": "2026-09-17",
-    "SChinese": "模组市场
-• 新增 BepInEx 模组市场：浏览、搜索、排序、下拉刷新
-• 支持按分类筛选，顶部改为全部 / 精选 / 作者 + 线上标签
-• 列表与详情显示标签、分类，以及适配的游戏版本（与当前游戏不一致时标红）
-• 非中文界面默认显示英文模组名，搜索仍同时匹配中英文
-• 市场列表增加回到顶部按钮
-
-整合包
-• 整合包详情「+」菜单：手动导入、自动扫描下载目录中的 .dll、从其他整合包导入
-• 从其他整合包导入时会一并复制对应配置、附属文件、显示名称和开关状态，并支持全选 / 取消全选
-• 模组可设置分类，并按分类筛选查看
-• 整合包可填写适配游戏版本；导入不匹配时会弹出确认，列表也会显示适配版本
-• 模组列表增加回到顶部按钮
-• modpack.json 改为统一的 mods 结构（旧字段仍可自动迁移）
-
-游戏内
-• 新增插件声明式 UI 通道，模组可弹出独立悬浮窗口
-• 优化游戏内菜单主题、控件间距与标签页动画
-
-修复
-• 从整合包返回主页时底部白边 / 导航栏闪烁
-• 市场分类横向滑动时误切底部页面
-• 多处本地化与界面细节",
-    "English": "Mod Market
-• Added a BepInEx marketplace with browse, search, sort, and pull-to-refresh
-• Filter by category; the top chips are now All / Featured / Authors plus online tags
-• Cards and details show tags, category, and compatible game versions (highlighted in red when they do not match the installed game)
-• Non-Chinese UI languages prefer the English mod name; search still matches both names
-• Added a back-to-top button on the market list
-
-Modpacks
-• The pack detail + menu now supports manual import, auto-scan of .dll files in Downloads, and import from another pack
-• Importing from another pack copies matching configs, sidecar files, display names, and enable state, with select-all / deselect-all
-• Mods can be assigned categories and filtered by category
-• Packs can declare a compatible game version; mismatched imports prompt before continuing, and the list shows the target version
-• Added a back-to-top button on the mod list
-• modpack.json now stores per-mod extras in a unified mods map (legacy fields are still imported)
-
-In-game
-• Added a declarative UI bridge so plugins can open their own overlay windows
-• Polished the in-game menu theme, control spacing, and tab animations
-
-Fixes
-• White strip / flashing bottom navigation when returning from a pack to Home
-• Horizontal category swipes no longer change the main pager tab
-• Various localization and UI polish updates"
+    "Date": "2026-09-25",
+    "SChinese": "🎑 1.1.1 更新啦！\n\n模组市场\n• 支持从直链安装模组\n• 下载完成后会自动解压 ZIP、RHP 或 DLL，并可导入已有整合包或新建整合包后导入\n\n整合包\n• 模组列表标题栏新增「全选 / 取消全选」\n• 仅对当前筛选结果中可见的模组生效，可一次启用或禁用多个模组\n\n游戏内\n• 全新悬浮日志样式，标题更加清晰\n• BepInEx 日志级别和对应堆栈信息会根据级别自动着色\n• 日志自动滚动到最新一行\n• 优化日志图标和最小化按钮，移除多余底色\n\n修复\n• 限制崩溃弹窗高度，仅日志正文滚动，标题和按钮始终保持在屏幕内\n• 公告和更新弹窗同样限制在屏幕范围内\n• 加强 ARM64 原生 Hook，减少短函数和连续 Hook 导致的原生崩溃\n• 再次启动游戏时使用新的游戏进程，不再复用异常进程\n• 崩溃记录增加更多游戏进程日志和进程退出原因，方便排查闪退\n\n语言\n• 更新 Crowdin 翻译\n• 新增和完善印尼语、西班牙语、马来语、泰语、威尼斯语、阿拉伯语、阿拉伯语（埃及）、马拉雅拉姆语、葡萄牙语、葡萄牙语（巴西）、乌克兰语、土耳其语、俄语、荷兰语、韩语、日语、意大利语、德语、法语等语言\n\n🌕 祝大家游玩愉快！\n🥮 中秋节快乐！✨",
+    "English": "🎑 Version 1.1.1 is here!\n\nMod Market\n• Added support for installing mods directly from URLs\n• ZIP, RHP, and DLL files are automatically extracted after downloading and can be imported into an existing modpack or a newly created modpack\n\nModpacks\n• Added Select All / Deselect All to the mod list toolbar\n• Only mods visible in the current filter are affected, allowing multiple mods to be enabled or disabled at once\n\nIn-game\n• Redesigned the floating log window with a clearer title\n• BepInEx log levels and their corresponding stack traces are automatically color-coded\n• Logs automatically scroll to the latest entry\n• Removed unnecessary backgrounds from the log icon and minimize button\n\nFixes\n• Limited the height of crash dialogs so only the log content scrolls while the title and buttons remain visible\n• Announcement and update dialogs are also constrained to the screen\n• Improved native Hook handling on ARM64 to reduce crashes caused by short functions and consecutive Hooks\n• The game now starts with a fresh process instead of reusing an abnormal process\n• Crash reports now include more game process logs and the process exit reason for easier troubleshooting\n\nLanguages\n• Updated Crowdin translations\n• Added and improved Indonesian, Spanish, Malay, Thai, Venetian, Arabic, Arabic (Egypt), Malayalam, Portuguese, Portuguese (Brazil), Ukrainian, Turkish, Russian, Dutch, Korean, Japanese, Italian, German, and French translations\n\n🌕 Have fun playing!\n🥮 Happy Mid-Autumn Festival! ✨"
   },
 
   "urlApk": {
