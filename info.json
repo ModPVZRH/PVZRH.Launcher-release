@@ -3,9 +3,9 @@
   "allowStart": "true",
   
   "announcement": {
-    "Date": "2026-10-01",
-    "SChinese": "test",
-    "English": "test"
+    "Date": "2026-09-25",
+    "SChinese": "🎑 1.1.1 更新啦！\n\n模组市场\n• 支持从直链安装模组\n• 下载完成后会自动解压 ZIP、RHP 或 DLL，并可导入已有整合包或新建整合包后导入\n\n整合包\n• 模组列表标题栏新增「全选 / 取消全选」\n• 仅对当前筛选结果中可见的模组生效，可一次启用或禁用多个模组\n\n游戏内\n• 全新悬浮日志样式，标题更加清晰\n• BepInEx 日志级别和对应堆栈信息会根据级别自动着色\n• 日志自动滚动到最新一行\n• 优化日志图标和最小化按钮，移除多余底色\n\n修复\n• 限制崩溃弹窗高度，仅日志正文滚动，标题和按钮始终保持在屏幕内\n• 公告和更新弹窗同样限制在屏幕范围内\n• 加强 ARM64 原生 Hook，减少短函数和连续 Hook 导致的原生崩溃\n• 再次启动游戏时使用新的游戏进程，不再复用异常进程\n• 崩溃记录增加更多游戏进程日志和进程退出原因，方便排查闪退\n\n语言\n• 更新 Crowdin 翻译\n• 新增和完善印尼语、西班牙语、马来语、泰语、威尼斯语、阿拉伯语、阿拉伯语（埃及）、马拉雅拉姆语、葡萄牙语、葡萄牙语（巴西）、乌克兰语、土耳其语、俄语、荷兰语、韩语、日语、意大利语、德语、法语等语言\n\n🌕 祝大家游玩愉快！\n🥮 中秋节快乐！✨",
+    "English": "🎑 Version 1.1.1 is here!\n\nMod Market\n• Added support for installing mods directly from URLs\n• ZIP, RHP, and DLL files are automatically extracted after downloading and can be imported into an existing modpack or a newly created modpack\n\nModpacks\n• Added Select All / Deselect All to the mod list toolbar\n• Only mods visible in the current filter are affected, allowing multiple mods to be enabled or disabled at once\n\nIn-game\n• Redesigned the floating log window with a clearer title\n• BepInEx log levels and their corresponding stack traces are automatically color-coded\n• Logs automatically scroll to the latest entry\n• Removed unnecessary backgrounds from the log icon and minimize button\n\nFixes\n• Limited the height of crash dialogs so only the log content scrolls while the title and buttons remain visible\n• Announcement and update dialogs are also constrained to the screen\n• Improved native Hook handling on ARM64 to reduce crashes caused by short functions and consecutive Hooks\n• The game now starts with a fresh process instead of reusing an abnormal process\n• Crash reports now include more game process logs and the process exit reason for easier troubleshooting\n\nLanguages\n• Updated Crowdin translations\n• Added and improved Indonesian, Spanish, Malay, Thai, Venetian, Arabic, Arabic (Egypt), Malayalam, Portuguese, Portuguese (Brazil), Ukrainian, Turkish, Russian, Dutch, Korean, Japanese, Italian, German, and French translations\n\n🌕 Have fun playing!\n🥮 Happy Mid-Autumn Festival! ✨"
   },
 
   "urlApk": {
